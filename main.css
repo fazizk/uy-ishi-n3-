@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.sidebar {
+    width: 120px;
+    height: 100vh;
+    background-color: dodgerblue;
+    margin-left: -120px;
+    transition: .5s;
+    border: solid transparent;
+    margin-top: -40px;
+    position: relative;
+
+}
+
+.close {
+    
+    border: solid transparent;
+    font-size: 35px;
+    display: none;
+    background-color: transparent;
+    margin-left: 170px;
+    cursor: pointer;
+    transition: .5s;
+    letter-spacing: 1px;
+
+}
+
+.bi-x-lg:hover {
+    color: rgb(30, 136, 243);
+    transition: .5s;
+
+}
+
+.close>p {
+   
+    margin-top: 30px;
+    font-size: 18px;
+    transition: .2s;
+}
+
+.Main:hover {
+    color: rgb(0, 128, 255);
+    transition: .5s;
+
+
+}
+
+
+.active {
+    background-color: transparent;
+    font-size: 30px;
+    border: solid transparent;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.Menu {
+    letter-spacing: 1px;
+    transition: .2s;
+}
+
+.Menu:hover {
+    color: dodgerblue;
+    transition: .2s;
+
+}
+
+.active>p {
+
+    position: relative;
+    top: -34px;
+    left: 70px;
+}
+
+.fa-bars {
+    transition: .2s;
+}
+
+.fa-bars:hover {
+    color: dodgerblue;
+    transition: .2s;
+
+}
+
+.bi-fire {
+    width: 50px;
+    font-size: 40px;
+    margin-left: 37px;
+    position: absolute;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+
+
+.bi-fire:hover {
+    color: white;
+    transition: .5s;
+
+}
+
+.bi-compass {
+    font-size: 40px;
+    margin-left: 37px;
+    position: absolute;
+    margin-top: 115px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.bi-compass:hover {
+    color: white;
+    transition: .5s;
+
+}
+
+.bi-house-door {
+    font-size: 40px;
+    margin-left: 37px;
+    position: absolute;
+    margin-top: 200px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.bi-house-door:hover {
+    color: white;
+    transition: .5s;
+}
+
+.bi-hourglass-top {
+    font-size: 40px;
+    margin-left: 37px;
+    position: absolute;
+    margin-top: 290px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.bi-hourglass-top:hover {
+    color: white;
+    transition: .5s;
+}
+
+.bi-bank {
+    font-size: 40px;
+    margin-left: 37px;
+    position: absolute;
+    margin-top: 380px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.bi-bank:hover {
+    color: white;
+    transition: .5s;
+}
+
+.fa-hotdog {
+    font-size: 40px;
+    margin-left: 37px;
+    position: absolute;
+    margin-top: 475px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.fa-hotdog:hover {
+    color: white;
+    transition: .5s;
+}
+
+.bi-database-fill {
+    font-size: 40px;
+    margin-left: 37px;
+    position: absolute;
+    margin-top: 565px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.bi-database-fill:hover {
+    color: white;
+    transition: .5s;
+}
+
+.bi-hospital {
+    font-size: 40px;
+    margin-left: 37px;
+    position: absolute;
+    margin-top: 650px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.bi-hospital:hover {
+    color: white;
+    transition: .5s;
+}
+
+
+
+
